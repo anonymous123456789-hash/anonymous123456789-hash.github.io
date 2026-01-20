@@ -17,6 +17,10 @@ body {
   font-variant: small-caps;
 }
 
+.shotverse {
+  font-variant: small-caps;
+}
+
 
 .teaser .hero-body {
   padding-top: 0;
@@ -42,6 +46,12 @@ body {
   top: auto;
   transform: none;
   object-fit: fit;
+}
+
+/* Keep carousel videos in a landscape-friendly responsive layout */
+.results-carousel video {
+  width: 100%;
+  height: auto;
 }
 
 .publication-header .hero-body {
